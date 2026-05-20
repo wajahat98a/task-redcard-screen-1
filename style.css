@@ -1,0 +1,132 @@
+#logo{
+    width: 10%;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #ffffff;
+    
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: #8f2a2a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    gap: 50px;
+    padding-bottom: 15%;
+    
+}
+
+
+
+.left{
+    width: 45%;
+    color: white;
+}
+
+.left h1{
+    font-size: 80px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: 'Roboto' sans-serif;
+    
+}
+
+.left p{
+    font-size: 19px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.left h2{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+
+
+
+.right{
+    width: 40%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+input,
+textarea{
+    width: 100%;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    outline: none;
+}
+
+input::placeholder,
+textarea::placeholder{
+    color: white;
+}
+
+textarea{
+    height: 100px;
+    resize: none;
+}
+
+
+
+label{
+    color: white;
+    font-size: 16px;
+}
+
+
+
+h3{
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+
+
+button{
+    padding: 15px;
+    background: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#cb1{
+    margin-left: 47%;
+    margin-top: -34%;
+}
+#cb2{
+    margin-left: 47%;
+    margin-top: -34%; 
+}
+
+
+
+
